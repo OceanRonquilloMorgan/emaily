@@ -31,7 +31,7 @@ class Header extends Component {
     }
   }
 
-  // design of the header
+  // what client sees; design of the header
   render() {
     return (
       <nav>

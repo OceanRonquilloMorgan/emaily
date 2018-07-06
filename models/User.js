@@ -1,4 +1,4 @@
-// mongoose model class
+// Mongoose model class
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 // alternative declaration: const { Schema } = mongoose;

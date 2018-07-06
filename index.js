@@ -5,7 +5,10 @@ const passport = require('passport');
 const keys = require('./config/keys');
 // express middleware; parse payload
 const bodyParser = require('body-parser');
+// mongoose schemas
 require('./models/User');
+require('./models/Survey');
+require('./models/Recipient');
 require('./services/passport');
 
 mongoose.connect(keys.mongoURI);
@@ -31,6 +34,7 @@ app.use(passport.session());
 // call our routes with the app object
 require('./routes/authRoutes')(app);
 require('./routes/billingRoutes')(app);
+require('./routes/surveyRoutes')(app);
 
 // routing in production / prod environment for heroku
 if (process.env.NODE_ENV === 'production') {
