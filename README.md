@@ -11,3 +11,4 @@ Emaily is a MERN full-stack web application that allows users to send mass email
 * <strong>Front-end:</strong> React.js, Materialize.css
 * <strong>Back-end:</strong> Node.js, Express, MongoDB
 * <strong>Deployment:</strong> Heroku
+* <strong>Authentication:</strong> Passport, OAuth 2.0
