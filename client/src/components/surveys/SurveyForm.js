@@ -25,21 +25,24 @@ class SurveyForm extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{ marginLeft: '60px', marginRight: '60px' }}>
         <form onSubmit={this.props.handleSubmit(this.props.onSurveySubmit)}>
           {this.renderFields()}
-          <Link to="/surveys" className="red btn-flat white-text">
+          <Link to="/surveys" className="red lighten-1 btn white-text">
             Cancel
           </Link>
           <button
             type="button"
-            className="grey btn-flat center white-text"
+            className="blue-grey lighten-3 btn center white-text"
             style={{ marginLeft: '5px' }}
             onClick={this.props.reset}
           >
             Reset
           </button>
-          <button type="submit" className="teal btn-flat right white-text">
+          <button
+            type="submit"
+            className="green lighten-1 btn right white-text"
+          >
             Next
             <i className="material-icons right">done</i>
           </button>
