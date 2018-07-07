@@ -1,4 +1,4 @@
-# Emaily - Simple Feedback Collection System
+# Emaily - Simple Feedback Collection Service
 
 <img width="1279" alt="landing-screenshot" src="https://user-images.githubusercontent.com/25493127/42410543-5c3d0f82-81eb-11e8-9060-4ad8682c82e2.png">
 
