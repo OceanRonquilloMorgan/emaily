@@ -10,16 +10,16 @@ const Landing = () => {
             src={'/emaily-logo.svg'}
             alt={'Emaily'}
             className="logo"
-            style={{ marginTop: '75px' }}
+            style={{ marginTop: '30px' }}
           />
         </a>
         <div class="row center">
-          <h5 class="header col s12" style={{ marginTop: '20px' }}>
+          <h5 class="header col s12" style={{ marginTop: '10px' }}>
             Simple survey collection service to collect feedback from your users
           </h5>
         </div>
 
-        <div class="row center" style={{ marginTop: '10px' }}>
+        <div class="row center" style={{ marginTop: '5px' }}>
           <a
             href="/auth/google"
             id="download-button"
@@ -30,7 +30,6 @@ const Landing = () => {
         </div>
       </div>
 
-      <br />
       <br />
       <br />
       <br />
